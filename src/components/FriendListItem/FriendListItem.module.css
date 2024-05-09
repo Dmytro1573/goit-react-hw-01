@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.status {
+    font-size: 20px;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: orangered;
+}
